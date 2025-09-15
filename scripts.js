@@ -55,4 +55,20 @@ console.log('Modulus of our age  '+(myAge%yourAge));
 
 //EXponentation
 console.log('Exponent of age' +(myAge**2));
+myAge=26;
+//post increment
+console.log(myAge++);
+console.log('Post increment of my age ' + myAge++);
 
+myAge=26;
+//preincremant
+console.log(++myAge);
+console.log('Pre incremant of myAGE ' +myAge);
+myAge=26;
+//POSTDECREMENT
+console.log(myAge--);
+console.log("My decremant age is" +myAge)
+myAge=26;
+//pre decrement
+console.log(--myAge);
+console.log("pre decrement of myage:" +myAge)
