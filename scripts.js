@@ -85,29 +85,53 @@ var age =26;
 //asign ment operator
 
 //Equal sign
-var myName = 'kasun';
-console.log(myName);
+//var myName = 'kasun';
+//console.log(myName);
 
 //addition with equal
-var age = 24;
-age += 10;
-console.log(age);
+//var age = 24;
+//age += 10;
+//console.log(age);
 
 //subtraction operator
-age -=10
-console.log(age);
+//age -=10
+//console.log(age);
 //multiplication
-age *=10;
-console.log(age);
+//age *=10;
+//console.log(age);
 
 //division withequal
-age/=4;
-console.log(age);
+//age/=4;
+//console.log(age);
 
 //modulus
-age %=13;
-console.log(age);
+//age %=13;
+//console.log(age);2.5
 
 //exponent
-age **=2;
-console.log(age);
+//age **=2;
+//console.log(age);
+
+
+
+//BMI Calculator
+//kasunbmi
+var mass,height, bmik,bmic,iskasun;
+mass =prompt("Kasun's mass:");
+height =prompt("Kasun's height:");
+
+bmik=mass/(height*height);
+console.log(bmik);
+
+//chaml's BMI
+mass =prompt("chaml's mass");
+height=prompt("chamal's height");
+bmic = mass/(height*height);
+console.log(bmic);
+
+//bool
+iskasun=(bmik>bmic);
+
+alert(iskasun);
+
+
