@@ -31,53 +31,83 @@ var age =26;
 //alert('My height is ' +Hegiht +'feet');
 
 //--singel operato--
-var myAge,yourAge,year,result;
-myAge=26;
-yourAge=20;
-year =2025;
+//var myAge,yourAge,year,result;
+//myAge=26;
+//yourAge=20;
+//year =2025;
 
 //subtraction
-result = year-myAge;
-console.log("i was born in"+result);
+//result = year-myAge;
+//console.log("i was born in"+result);
 
 //addition 
-result = year+10;
-console.log('product of our ages ' + result);
+//result = year+10;
+//console.log('product of our ages ' + result);
 
 //multiplication 
-result= myAge * yourAge
-console.log("produt of age "+ result);
+//result= myAge * yourAge
+//console.log("produt of age "+ result);
 
 //division
-console.log('division of our args '+(myAge/yourAge));
+//console.log('division of our args '+(myAge/yourAge));
 //modulus
-console.log('Modulus of our age  '+(myAge%yourAge));
+//console.log('Modulus of our age  '+(myAge%yourAge));
 
 //EXponentation
-console.log('Exponent of age' +(myAge**2));
-myAge=26;
+//console.log('Exponent of age' +(myAge**2));
+//myAge=26;
 //post increment
-console.log(myAge++);
-console.log('Post increment of my age ' + myAge++);
+//console.log(myAge++);
+//console.log('Post increment of my age ' + myAge++);
 
-myAge=26;
-//preincremant
-console.log(++myAge);
-console.log('Pre incremant of myAGE ' +myAge);
-myAge=26;
+//myAge=26;
+//preincremant{
+//console.log(++myAge);
+//console.log('Pre incremant of myAGE ' +myAge);
+//myAge=26;
 //POSTDECREMENT
-console.log(myAge--);
-console.log("My decremant age is" +myAge)
-myAge=26;
+//console.log(myAge--);
+//console.log("My decremant age is" +myAge)
+//myAge=26;
 //pre decrement
-console.log(--myAge);
-console.log("pre decrement of myage:" +myAge)
+//console.log(--myAge);
+//console.log("pre decrement of myage:" +myAge)
 
 //operator precedence
-var cal = (20+30)/10+4.5-2*4**2;
-console.log(cal);
+//var cal = (20+30)/10+4.5-2*4**2;
+//console.log(cal);
 
 //multiple operator
-var ans1,ans2;
-ans1=ans2=(((30+40-29)*2)/8)**4;
-console.log(ans1+ '' +ans2);
+//var ans1,ans2;
+//ans1=ans2=(((30+40-29)*2)/8)**4;
+//console.log(ans1+ '' +ans2);
+
+//asign ment operator
+
+//Equal sign
+var myName = 'kasun';
+console.log(myName);
+
+//addition with equal
+var age = 24;
+age += 10;
+console.log(age);
+
+//subtraction operator
+age -=10
+console.log(age);
+//multiplication
+age *=10;
+console.log(age);
+
+//division withequal
+age/=4;
+console.log(age);
+
+//modulus
+age %=13;
+console.log(age);
+
+//exponent
+age **=2;
+console.log(age);
