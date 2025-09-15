@@ -174,3 +174,12 @@ var d = 15;
         console.log('a is equal 10')
     }
 }
+//less than or equal
+if(c <=d){
+    if(c<=5){
+        console.log('c is less than or equal to 5');
+    }
+    else{
+        console.log ('c is gretater than or equual');
+    }
+}
