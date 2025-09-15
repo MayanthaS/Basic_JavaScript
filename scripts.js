@@ -174,6 +174,16 @@ var d = 15;
         console.log('a is equal 10')
     }
 }
+//not equal 
+else if (a !=c){
+    //less than 
+    if(a <c){
+        console.log ('a is less than  c');
+    }
+    else{
+        console.log('a is greater than c');
+    }
+}
 //less than or equal
 if(c <=d){
     if(c<=5){
