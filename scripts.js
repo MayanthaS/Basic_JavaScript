@@ -116,22 +116,32 @@ var age =26;
 
 //BMI Calculator
 //kasunbmi
-var mass,height, bmik,bmic,iskasun;
-mass =prompt("Kasun's mass:");
-height =prompt("Kasun's height:");
+//var mass,height, bmik,bmic,iskasun;
+//mass =prompt("Kasun's mass:");
+//height =prompt("Kasun's height:");
 
-bmik=mass/(height*height);
-console.log(bmik);
+//bmik=mass/(height*height);
+//console.log(bmik);
 
 //chaml's BMI
-mass =prompt("chaml's mass");
-height=prompt("chamal's height");
-bmic = mass/(height*height);
-console.log(bmic);
+//mass =prompt("chaml's mass");
+//height=prompt("chamal's height");
+//bmic = mass/(height*height);
+//console.log(bmic);
 
 //bool
-iskasun=(bmik>bmic);
+//iskasun=(bmik>bmic);
 
-alert(iskasun);
+//alert(iskasun);
+
+//if-else
+var a=5;
+var b=6;
+if(a>b){
+    console.log("a is greater than or equal");
+}
+else{
+    console.log("b is greater than a");
+}
 
 
