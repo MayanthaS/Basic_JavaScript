@@ -48,3 +48,11 @@ console.log('product of our ages ' + result);
 result= myAge * yourAge
 console.log("produt of age "+ result);
 
+//division
+console.log('division of our args '+(myAge/yourAge));
+//modulus
+console.log('Modulus of our age  '+(myAge%yourAge));
+
+//EXponentation
+console.log('Exponent of age' +(myAge**2));
+
