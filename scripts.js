@@ -76,3 +76,8 @@ console.log("pre decrement of myage:" +myAge)
 //operator precedence
 var cal = (20+30)/10+4.5-2*4**2;
 console.log(cal);
+
+//multiple operator
+var ans1,ans2;
+ans1=ans2=(((30+40-29)*2)/8)**4;
+console.log(ans1+ '' +ans2);
