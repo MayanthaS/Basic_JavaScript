@@ -135,13 +135,42 @@ var age =26;
 //alert(iskasun);
 
 //if-else
-var a=5;
+//var a=5;
 var b=6;
 if(a>b){
-    console.log("a is greater than or equal");
+  //  console.log("a is greater than or equal");
 }
 else{
-    console.log("b is greater than a");
+    //console.log("b is greater than a");
 }
 
+//comparison operators
+var a = 20;
+var b = '20';
+var c = 5;
+var d = 15;
 
+//equal to 
+if(a == b){
+    if(a == b){
+        console.log('Both value and type of a is equal to b');
+    }  
+    else if(a !== b){
+        console.log('only value and type of a is equal to b');
+    } 
+   }
+//greater than or equL
+var a = 20;
+var b = '20';
+var c = 5;
+var d = 15;
+ if (a >=10){
+    //greater than
+    if(a >10){
+        console.log('a is greater than 10');
+    }
+    //equal tp 
+    else if(a == 10){
+        console.log('a is equal 10')
+    }
+}
