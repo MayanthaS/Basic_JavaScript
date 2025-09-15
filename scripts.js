@@ -72,3 +72,7 @@ myAge=26;
 //pre decrement
 console.log(--myAge);
 console.log("pre decrement of myage:" +myAge)
+
+//operator precedence
+var cal = (20+30)/10+4.5-2*4**2;
+console.log(cal);
