@@ -327,8 +327,18 @@ console.log(profession("doctor","kasun"));
 
 // array
 //ways to declare an array
-var students = ["Ruwan","Nimal","Piyal","Dhanushka"];
+var students = ["Ruwan","Nimal","Piyal","Dhanushka","kasun","pakaya"];
 var marks = new Array(60,55,66,44,78);
-
 //print array
 console.log (students);
+
+
+//array mutation
+students[3] ="saduni";
+students[5] ="thilini";
+students[students.lenght] ="chamara";
+
+
+//print array
+
+console.log(students);
