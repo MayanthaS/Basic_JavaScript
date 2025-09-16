@@ -279,5 +279,16 @@ function addNumber(num1,num2){
     var ans = num1+num2;
     console.log("Addition:" +ans);
 }
+
+
+//with return
+function subNumber(num1,num2){
+   //return the value to where we called the function
+   // exit the function
+    return num1 - num2 ;
+
+}
 //calling  function
 addNumber(20,32.5);
+var sub =subNumber(30,12);
+console.log(sub);
