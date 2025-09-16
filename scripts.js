@@ -247,7 +247,7 @@
  var score1, score2,score3,averageSri,averageEng;
 
 //srilanaka average
-score1 =parseInt( prompt("Enter match score1 of team sri Lanaka: "));
+/*score1 =parseInt( prompt("Enter match score1 of team sri Lanaka: "));
 score2 =parseInt( prompt("Enter match score2 of team sri Lanaka: "));
 score3 =parseInt( prompt("Enter match score3 of team sri Lanaka: "));
 
@@ -270,3 +270,14 @@ else{
     console.log("Winner in srilan " +averageEng);
 
 }
+*/
+
+//introduction of function
+// Define function
+//without return
+function addNumber(num1,num2){
+    var ans = num1+num2;
+    console.log("Addition:" +ans);
+}
+//calling  function
+addNumber(20,32.5);
