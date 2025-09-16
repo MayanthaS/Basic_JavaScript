@@ -309,3 +309,18 @@ function retieryear(firstname, BirthYear){
     console.log(firstname + " is " +retier +"years in " +(BirthYear+age+retier )+" retier " );
 }
 console.log(retieryear("mayantha",2000));
+
+//function expression
+var profession = function(job, firstname) {
+    switch(job) {
+        case 'doctor':
+            return firstname + " is a Doctor";
+        case 'teacher':
+            return firstname + " is a Teacher";
+        case 'engineer':
+            return firstname + " is an Engineer";
+        default:
+            return firstname + " does something else";
+    }
+};
+console.log(profession("doctor","kasun"));
