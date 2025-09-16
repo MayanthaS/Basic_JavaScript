@@ -300,4 +300,12 @@ function calAge(BirthYear){
 
 }
 
-console.log(calAge(1995));
+//console.log(calAge(1995));
+
+//sample project retier year
+function retieryear(firstname, BirthYear){
+    var age = calAge(BirthYear);
+    var retier = 60 - age;
+    console.log(firstname + " is " +retier +"years in " +(BirthYear+age+retier )+" retier " );
+}
+console.log(retieryear("mayantha",2000));
