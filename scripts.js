@@ -216,24 +216,32 @@ var age =26;
 
 
 //switch case
-var empName = "Kasun";
-var jobRole = "data sciencetist";
+//var empName = "Kasun";
+//var jobRole = "data sciencetist";
 
 switch(jobRole.toLocaleLowerCase()){
     case 'teacher':
-        console.log(empName+'is a Tecaher');
+       // console.log(empName+'is a Tecaher');
         break;
     case 'doctor':
-        console.log(empName+'is a Doctor');
+        //console.log(empName+'is a Doctor');
         break;
      case 'data sciencetist':
-        console.log(empName+'is a Data scientist');
+        //console.log(empName+'is a Data scientist');
         break;
      case 'se':
-        console.log(empName+'is a se');
+        //console.log(empName+'is a se');
         break;
     default:
-        console.log(empName+'dose something else');
+        //console.log(empName+'dose something else');
         break;
 }
+//5- 00000101
+//1- 00000001
+//bitwise 
+//console.log(5 & 1);
+
+//console.log(5 | 1);
+
+
 
