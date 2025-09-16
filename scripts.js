@@ -292,3 +292,12 @@ function subNumber(num1,num2){
 addNumber(20,32.5);
 var sub =subNumber(30,12);
 console.log(sub);
+
+
+//define 
+function calAge(BirthYear){
+    return 2025-BirthYear;
+
+}
+
+console.log(calAge(1995));
