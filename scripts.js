@@ -202,9 +202,16 @@ var c = 5;
 if(a == 10 && a == b){
     console.log('a eqaul a  and b');
 }
-else if(a >10 ||c >b ){
+//or
+else if(a < 10 || c > b ){
  console.log("Is is good");    
 }
- 
+ //not
+else if(a != c){
+    console.log("It s NOt bad");
+}
+else{
+    console.log("IT IS BAD")
+}
 
 
