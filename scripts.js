@@ -136,13 +136,13 @@ var age =26;
 
 //if-else
 //var a=5;
-var b=6;
-if(a>b){
+//var b=6;
+//if(a>b){
   //  console.log("a is greater than or equal");
-}
-else{
+//}
+//else{
     //console.log("b is greater than a");
-}
+//}
 
 //comparison operators
 //var a = 20;
@@ -195,23 +195,45 @@ else{
      //   console.log ('c is gretater  d');
    // }
 ///----LOgical operator--//
-var a = 20;
-var b = 10;
-var c = 5;
+//var a = 20;
+//var b = 10;
+//var c = 5;
  // and
-if(a == 10 && a == b){
-    console.log('a eqaul a  and b');
-}
+//if(a == 10 && a == b){
+  //  console.log('a eqaul a  and b');
+//}
 //or
-else if(a < 10 || c > b ){
- console.log("Is is good");    
-}
+//else if(a < 10 || c > b ){
+// console.log("Is is good");    
+//}
  //not
-else if(a != c){
-    console.log("It s NOt bad");
-}
-else{
-    console.log("IT IS BAD")
-}
+//else if(a != c){
+  //  console.log("It s NOt bad");
+//}
+//else{
+  //  console.log("IT IS BAD")
+//}
 
+
+//switch case
+var empName = "Kasun";
+var jobRole = "data sciencetist";
+
+switch(jobRole.toLocaleLowerCase()){
+    case 'teacher':
+        console.log(empName+'is a Tecaher');
+        break;
+    case 'doctor':
+        console.log(empName+'is a Doctor');
+        break;
+     case 'data sciencetist':
+        console.log(empName+'is a Data scientist');
+        break;
+     case 'se':
+        console.log(empName+'is a se');
+        break;
+    default:
+        console.log(empName+'dose something else');
+        break;
+}
 
