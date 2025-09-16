@@ -145,51 +145,66 @@ else{
 }
 
 //comparison operators
-var a = 20;
-var b = '20';
-var c = 5;
-var d = 15;
+//var a = 20;
+//var b = '20';
+//var c = 5;
+//var d = 6;
 
 //equal to 
-if(a == b){
-    if(a == b){
-        console.log('Both value and type of a is equal to b');
-    }  
-    else if(a !== b){
-        console.log('only value and type of a is equal to b');
-    } 
-   }
+//if(a == b){
+    //equal value and type
+  //  if(a === b){
+ //       console.log('Both value and type of a is equal to b');
+ //   } 
+    //not equal value or type 
+ //   else {
+       // if (a !== b) {
+     //       console.log('only value or type of a is equal to b');
+   //     }
+  //  } 
+//}
 //greater than or equL
-var a = 20;
-var b = '20';
-var c = 5;
-var d = 15;
- if (a >=10){
+//if (a >= 10){
     //greater than
-    if(a >10){
-        console.log('a is greater than 10');
-    }
+  //     if(a >10){
+    //    console.log('a is greater than 10');
+    //  }
     //equal tp 
-    else if(a == 10){
-        console.log('a is equal 10')
-    }
-}
+      // else if(a == 10){
+      //  console.log('a is equal 10')
+   // }
+//}
 //not equal 
-else if (a !=c){
+// if (a !=c){
     //less than 
-    if(a <c){
-        console.log ('a is less than  c');
-    }
-    else{
-        console.log('a is greater than c');
-    }
-}
+  //  if(a <c){
+ //       console.log ('a is less than  c');
+  //  }
+  //  else{
+   //     console.log('a is greater than c');
+   // }
+//}
 //less than or equal
-if(c <=d){
-    if(c<=5){
-        console.log('c is less than or equal to 5');
-    }
-    else{
-        console.log ('c is gretater than or equual');
-    }
+
+   
+// if(c <=d){
+  //  if(c<5){
+    //    console.log('c is less than or equal to 5');
+   // }
+   // else{
+     //   console.log ('c is gretater  d');
+   // }
+///----LOgical operator--//
+var a = 20;
+var b = 10;
+var c = 5;
+ // and
+if(a == 10 && a == b){
+    console.log('a eqaul a  and b');
 }
+else if(a >10 ||c >b ){
+ console.log("Is is good");    
+}
+ 
+
+
