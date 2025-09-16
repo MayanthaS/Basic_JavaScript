@@ -4,8 +4,8 @@
 //console.log("Hope you are fine")
 
 //create variable
-var firstName = "Chamara";
-var age =26;
+//var firstName = "Chamara";
+//var age =26;
 
 
 //print
@@ -219,23 +219,23 @@ var age =26;
 //var empName = "Kasun";
 //var jobRole = "data sciencetist";
 
-switch(jobRole.toLocaleLowerCase()){
-    case 'teacher':
+//switch(jobRole.toLocaleLowerCase()){
+   // case 'teacher':
        // console.log(empName+'is a Tecaher');
-        break;
-    case 'doctor':
+       // break;
+   // case 'doctor':
         //console.log(empName+'is a Doctor');
-        break;
-     case 'data sciencetist':
+       // break;
+    // case 'data sciencetist':
         //console.log(empName+'is a Data scientist');
-        break;
-     case 'se':
+     //   break;
+    // case 'se':
         //console.log(empName+'is a se');
-        break;
-    default:
+       // break;
+    //default:
         //console.log(empName+'dose something else');
-        break;
-}
+      //  break;
+//}
 //5- 00000101
 //1- 00000001
 //bitwise 
@@ -243,5 +243,30 @@ switch(jobRole.toLocaleLowerCase()){
 
 //console.log(5 | 1);
 
+/*sample project*/
+ var score1, score2,score3,averageSri,averageEng;
 
+//srilanaka average
+score1 =parseInt( prompt("Enter match score1 of team sri Lanaka: "));
+score2 =parseInt( prompt("Enter match score2 of team sri Lanaka: "));
+score3 =parseInt( prompt("Enter match score3 of team sri Lanaka: "));
 
+averageSri =(score1+score2+score3)/3;
+
+// Eng AVERAGE
+score1 =parseInt( prompt("Enter match score1 of team England: "));
+score2 =parseInt( prompt("Enter match score2 of team England: "));
+score3 =parseInt( prompt("Enter match score3 of team England164: "));
+
+averageEng =(score1+score2+score3)/3;
+
+//Find the winner
+if(averageSri>averageEng){
+    alert("Winner in srilan " +averageSri);
+    console.log("Winner in srilan " +averageSri);
+}
+else{
+     alert("Winner in eng " +averageEng);
+    console.log("Winner in srilan " +averageEng);
+
+}
