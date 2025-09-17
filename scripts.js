@@ -342,3 +342,28 @@ students[students.lenght] ="chamara";
 //print array
 
 console.log(students);
+console.log(students.lenght);
+console.log(students[3]+' got ' +marks[3]+' marks for Maths');
+
+
+//different data types in array
+ var std1 =['Kamal','perera',22, 'civil','panadura',true];
+ console.log(std1);
+ console.log(typeof(std1[5]));
+//add elemet 
+std1.push("grenn");
+std1.unshift("Mr");
+console.log(std1);
+
+//remove element
+std1.pop();
+std1.pop();
+std1.shift();
+console.log(std1);
+
+//get index of an element
+console.log (std1.indexOf(22));
+
+
+var isCivilstudent = std1.indexOf('Agri') === -1 ? std1[0]+' is not a Agri students':std1[0]+ 'is a civil student';
+console.log(isCivilstudent);
