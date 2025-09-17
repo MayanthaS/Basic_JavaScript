@@ -1,4 +1,6 @@
 //----External----------//
+/*
+
 
 //print
 //console.log("Hope you are fine")
@@ -243,7 +245,7 @@
 
 //console.log(5 | 1);
 
-/*sample project*/
+/*sample project*//*
  var score1, score2,score3,averageSri,averageEng;
 
 //srilanaka average
@@ -275,6 +277,7 @@ else{
 //introduction of function
 // Define function
 //without return
+/*
 function addNumber(num1,num2){
     var ans = num1+num2;
     console.log("Addition:" +ans);
@@ -393,6 +396,7 @@ var bill = prompt("Enter value of Bill:");
 
 
 //tip calculator using array 
+/*
 var tips =new Array();
 var amount = new Array ();
 
@@ -419,4 +423,56 @@ function tipCalculator(bill){
 console.log('1 -tip :', +tipCalculator(1230));
 console.log('2 -tip :', +tipCalculator(982));
 console.log('3 -tip :', +tipCalculator(1640));
+*/
 
+//objects
+var nimal = {
+  firstname:'Nimal',
+  lastName: 'perera',
+  age: 24,
+  job :'Developer',
+  subject:['java','web development','graphic design'],
+  degree:{
+    name:'software Eng',
+    duration :'4 Years',
+    Credits:120
+  },
+  projects:[
+    {
+      name:'Ecommerce app',
+      Technology:'flutter',
+      version:1.1
+    },
+    {
+      name:'music palyer',
+      Technology:'Java',
+      version:1.2
+    }
+  ]
+}
+console .log(nimal);
+console.log(nimal.lastName);
+console.log(nimal['lastName']);
+var X = 'age';
+console.log(nimal[X]);
+console.log(nimal[X]);
+console.log(nimal.subject[2]);
+console.log(nimal.degree.name);
+console.log(nimal['degree'].Credits);
+console.log(nimal.projects)
+
+
+//modify values
+nimal.job ='Devops Eng';
+nimal.age =26;
+console.log(nimal);
+
+//new object 
+var kasun = new Object();
+
+// add properties
+kasun.firstname = 'kasun';
+kasun.lastname = 'Fernando';
+kasun['age'] = 30;
+
+console.log(kasun);
