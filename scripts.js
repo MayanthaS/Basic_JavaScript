@@ -370,6 +370,7 @@ var isCivilstudent = std1.indexOf('Agri') === -1 ? std1[0]+' is not a Agri stude
 console.log(isCivilstudent);
 
 //tip calculator
+/*
 var tip,bill;
 var bill = prompt("Enter value of Bill:");
 
@@ -388,5 +389,34 @@ var bill = prompt("Enter value of Bill:");
    tip = bill*10/100;
    console.log("You GIVE TIP IS:"+tip);
    alert("You GIVE TIP IS:"+tip);
- }
+ }*/
+
+
+//tip calculator using array 
+var tips =new Array();
+var amount = new Array ();
+
+function tipCalculator(bill){
+  var tip;
+  if (bill<1000){
+     tip = bill *(20/100);
+  }
+  else if (1000<bill<1500){
+   tip = bill *(15/100);
+  }
+  else {
+   tip = bill *(10/100);
+   }
+   //Store in array
+   tips.push(tip);
+   amount.push(bill+tip);
+
+   return tip;
+
+   
+}
+//calling 
+console.log('1 -tip :', +tipCalculator(1230));
+console.log('2 -tip :', +tipCalculator(982));
+console.log('3 -tip :', +tipCalculator(1640));
 
