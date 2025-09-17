@@ -347,6 +347,7 @@ console.log(students[3]+' got ' +marks[3]+' marks for Maths');
 
 
 //different data types in array
+/// this most impotant write down book 
  var std1 =['Kamal','perera',22, 'civil','panadura',true];
  console.log(std1);
  console.log(typeof(std1[5]));
@@ -364,6 +365,28 @@ console.log(std1);
 //get index of an element
 console.log (std1.indexOf(22));
 
-
+// most omportant write down book 
 var isCivilstudent = std1.indexOf('Agri') === -1 ? std1[0]+' is not a Agri students':std1[0]+ 'is a civil student';
 console.log(isCivilstudent);
+
+//tip calculator
+var tip,bill;
+var bill = prompt("Enter value of Bill:");
+
+
+ if(bill<1000){
+     tip = bill *20/100;
+    console.log("You GIVE TIP IS:"+tip);
+    alert("You GIVE TIP IS:"+tip);
+ }
+ else if (1000<bill<1500){
+   tip = bill *15/100;
+  console.log("You GIVE TIP IS:"+tip);
+  alert("You GIVE TIP IS:"+tip);
+ }
+ else{
+   tip = bill*10/100;
+   console.log("You GIVE TIP IS:"+tip);
+   alert("You GIVE TIP IS:"+tip);
+ }
+
