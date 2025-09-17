@@ -245,7 +245,8 @@
 
 //console.log(5 | 1);
 
-/*sample project*//*
+/*sample project*/
+/*
  var score1, score2,score3,averageSri,averageEng;
 
 //srilanaka average
@@ -427,30 +428,29 @@ console.log('3 -tip :', +tipCalculator(1640));
 
 //objects
 var nimal = {
-  firstname:'Nimal',
-  lastName: 'perera',
-  age: 24,
-  job :'Developer',
-  subject:['java','web development','graphic design'],
-  degree:{
-    name:'software Eng',
-    duration :'4 Years',
-    Credits:120
-  },
-  projects:[
-    {
-      name:'Ecommerce app',
-      Technology:'flutter',
-      version:1.1
+    firstname: 'Nimal',
+    lastName: 'perera',
+    age: 24,
+    job: 'Developer',
+    subject: ['java', 'web development', 'graphic design'],
+    degree: {
+        name: 'software Eng',
+        duration: '4 Years',
+        Credits: 120
     },
-    {
-      name:'music palyer',
-      Technology:'Java',
-      version:1.2
-    }
-  ]
+    projects: [{
+            name: 'Ecommerce app',
+            Technology: 'flutter',
+            version: 1.1
+        },
+        {
+            name: 'music palyer',
+            Technology: 'Java',
+            version: 1.2
+        }
+    ]
 }
-console .log(nimal);
+console.log(nimal);
 console.log(nimal.lastName);
 console.log(nimal['lastName']);
 var X = 'age';
@@ -463,8 +463,8 @@ console.log(nimal.projects)
 
 
 //modify values
-nimal.job ='Devops Eng';
-nimal.age =26;
+nimal.job = 'Devops Eng';
+nimal.age = 26;
 console.log(nimal);
 
 //new object 
@@ -476,3 +476,36 @@ kasun.lastname = 'Fernando';
 kasun['age'] = 30;
 
 console.log(kasun);
+
+
+//BMI with objects
+
+//Declare objects
+var kasun = new Object();
+var chamal = new Object();
+
+// add properties to kasun
+kasun.fullName = prompt('Enter kasun full name:');
+kasun.mass = prompt('Enter the kasun mass :');
+kasun.weight = prompt('Enter kasun height :');
+
+//adde properties cahamls
+chamal.fullName = prompt('Enter chamal full name:');
+chamal.mass = prompt('Enter the chamal mass :');
+chamal.weight = prompt('Enter chamal height :');
+
+kasun.bmi = chamal.bmi = function() {
+    this.bmival = this.mass / (this.height ** 2);
+    return this.bmiVal;
+}
+
+
+//find the highest BMI
+if (kasun.bmi() > chamal.bmi()) {
+    alert('highest bmi is' + kasun.bmiVal);
+} else if (kasun.bmi() < chamal.bmi()) {
+    alert('highest bmi value is ' + chamal.bmiVal);
+}
+
+console.log(kasun);
+console.log(chamal);
