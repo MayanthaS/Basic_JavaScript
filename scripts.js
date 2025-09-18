@@ -527,4 +527,9 @@ for(var i = 10; i>0; --i){
 i =0,0<10 true,print i value
 continue to i<10
 */
+//iterate array
 
+var student = ['nimal','kumara','dasun','chmara','nandana'];
+for(var i = 0; i<student.length; i++){
+  console.log(student[i]);
+}
