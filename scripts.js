@@ -554,6 +554,7 @@ for(j of fname){
 }
 */
 //--while loop--
+/*
 var marks = [33,55,66,88,22];
 var k = 0;
 while(k < marks.length){
@@ -567,3 +568,20 @@ do{
   l--;
 }
 while(l >=0);
+
+*/
+//continue and break
+var data =['saman','galle',1996,'maths',true,'chocolate']
+
+//continue
+//if a specified condition occurs, and continues with the next iteration in the loop
+for(var i = 0; i< data.length; i++){
+  if(typeof(data[i]) !== 'string')continue;
+    console.log(data[i]);
+}
+//break
+//break the loop and continues executing the code after the loop (if any )
+for(var i = 0; i< data.length; i++){
+  if(typeof(data[i]) !== 'string')break;
+    console.log(data[i]);
+}
