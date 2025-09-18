@@ -516,7 +516,7 @@ console.log(chamal);
 
 
 // --for loop--
-
+/*
 for(var i= 0; i< 10; i++){
   console.log(i);
 }
@@ -533,3 +533,16 @@ var student = ['nimal','kumara','dasun','chmara','nandana'];
 for(var i = 0; i<student.length; i++){
   console.log(student[i]);
 }
+
+//for in loop
+var person ={fname:'chamara',lname:'silva',age:25};
+var i;
+for(i in person){
+  console.log(person);
+}
+var person ={fname:'sahan',lname:'sasindu',age:32};
+var i;
+for(i in person){
+  console.log(person[i]);
+}
+
