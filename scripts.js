@@ -557,6 +557,13 @@ for(j of fname){
 var marks = [33,55,66,88,22];
 var k = 0;
 while(k < marks.length){
-  console.log(marks);
+  console.log(marks[k]);
   k++;
 }
+//do - while loop
+var l = 10;
+do{
+  console.log(l);
+  l--;
+}
+while(l >=0);
