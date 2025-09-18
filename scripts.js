@@ -427,6 +427,7 @@ console.log('3 -tip :', +tipCalculator(1640));
 */
 
 //objects
+/*
 var nimal = {
     firstname: 'Nimal',
     lastName: 'perera',
@@ -479,7 +480,7 @@ console.log(kasun);
 
 
 //BMI with objects
-
+/*
 //Declare objects
 var kasun = new Object();
 var chamal = new Object();
@@ -509,3 +510,21 @@ if (kasun.bmi() > chamal.bmi()) {
 
 console.log(kasun);
 console.log(chamal);
+*/
+
+//Loop
+
+
+// --for loop--
+
+for(var i= 0; i< 10; i++){
+  console.log(i);
+}
+for(var i = 10; i>0; --i){
+  console.log(i);
+}
+/*
+i =0,0<10 true,print i value
+continue to i<10
+*/
+
