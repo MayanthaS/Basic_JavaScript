@@ -528,7 +528,7 @@ i =0,0<10 true,print i value
 continue to i<10
 */
 //iterate array
-
+/*
 var student = ['nimal','kumara','dasun','chmara','nandana'];
 for(var i = 0; i<student.length; i++){
   console.log(student[i]);
@@ -551,4 +551,12 @@ var fname = "chamra perera";
 var j;
 for(j of fname){
   console.log(j)
+}
+*/
+//--while loop--
+var marks = [33,55,66,88,22];
+var k = 0;
+while(k < marks.length){
+  console.log(marks);
+  k++;
 }
