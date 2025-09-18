@@ -546,3 +546,9 @@ for(i in person){
   console.log(person[i]);
 }
 
+//for of loop
+var fname = "chamra perera";
+var j;
+for(j of fname){
+  console.log(j)
+}
