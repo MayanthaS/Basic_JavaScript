@@ -571,6 +571,7 @@ while(l >=0);
 
 */
 //continue and break
+/*
 var data =['saman','galle',1996,'maths',true,'chocolate']
 
 //continue
@@ -598,6 +599,7 @@ regadless of the result
 
 */
 //Function to find the largest number
+/*
 function findLargest(a,b,c){
   try{
     if(typeof(a)!== 'number'||typeof(b) !== 'number' || typeof(c) !== 'number'){
@@ -627,3 +629,21 @@ function findLargest(a,b,c){
 
 //calling
 findLargest(6,7,5);
+*/
+
+//Scope
+/*
+Scope determines the accesibility(visibility) of variables.In javasripts there are two types of scope.
+1.local
+2.global
+
+*/
+
+//local variables
+//varable declared within a javascripts function.They can ONLY BE ACCESSESD from within the function .local varibles are deleted when the function is completed
+function addNum(){
+  var a =10;
+  var b = 20;
+  console.log(a+b);
+}
+addNum();
