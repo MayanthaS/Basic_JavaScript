@@ -585,3 +585,45 @@ for(var i = 0; i< data.length; i++){
   if(typeof(data[i]) !== 'string')break;
     console.log(data[i]);
 }
+
+//Error Handling
+
+//Try catch  
+/* 
+try -let you test a blcok of code for error
+catch -let you handle the error
+throw -lets your are create custom errors
+finaly -lets you execute code,after try and catch
+regadless of the result
+
+*/
+//Function to find the largest number
+function findLargest(a,b,c){
+  try{
+    if(typeof(a)!== 'number'||typeof(b) !== 'number' || typeof(c) !== 'number'){
+      throw"Error :Enter only numbers!";
+    }
+    else if(a == b || a == c || b ==c ){
+       throw "Error:Enter different numbers!";
+    }
+    else{
+       if(a > b && b > c ){
+        console.log("a is the largest  number");
+       }
+       else if(b > a && b > c){
+        console.log("b is the largest number !");
+       }
+       else{
+        console.log('Inavalid inputs!');
+       }
+    }
+  } catch (error) {
+    console.error(error);
+  }
+  finally{
+    console.log("Input values are" +a+','+b+','+c);
+  }
+}
+
+//calling
+findLargest(6,7,5);
