@@ -641,6 +641,7 @@ Scope determines the accesibility(visibility) of variables.In javasripts there a
 
 //local variables
 //varable declared within a javascripts function.They can ONLY BE ACCESSESD from within the function .local varibles are deleted when the function is completed
+/*
 function addNum(){
   var a =10;
   var b = 20;
@@ -659,3 +660,37 @@ function mySub(){
 }
 mySub();
 mySub();
+*/
+
+//tip calculator using loop and object
+var billPay = {
+  bill: [],
+  tip: [],
+  final:[],
+  calTip: function(){
+   for (var i = 0; i < this.bill.length; i++) {
+    var tp;
+    if (this.bill[i] < 1000) {
+      tp = 20 / 100;
+    }
+    else if(1000<this.bill[i]<1500){
+      tp =15/100;
+    }
+    else{
+      tp = 10/100;
+    }
+    //calculation
+    this.tip[i] = this.bill[i]*tp
+
+    //add final amount
+    this.final[i]= this.bill[i]+this.tip[i];
+   }
+
+  }
+}
+ //Get inputs
+    for(var i =0; i<5; i++){
+      billPay.bill[i]=parseInt(prompt("Enter bill amount : ")); 
+    }
+billPay.calTip();
+console.log(billPay);
