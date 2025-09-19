@@ -646,4 +646,16 @@ function addNum(){
   var b = 20;
   console.log(a+b);
 }
+//calling
 addNum();
+//console.log(a);
+
+//--Global Varible
+// A variable decided outside a function , all scripts and function ,all scripts and function an a web browser ,global.variable are deleted when you close the browser window
+var subject = "Maths";
+function mySub(){
+  console.log("My Favourite subject is "+subject);
+  subject ="science";
+}
+mySub();
+mySub();
