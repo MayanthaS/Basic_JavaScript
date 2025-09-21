@@ -663,6 +663,7 @@ mySub();
 */
 
 //tip calculator using loop and object
+/*
 var billPay = {
   bill: [],
   tip: [],
