@@ -20,6 +20,7 @@ bithyear  = nowyear - age;
 console.log("your birth year is "+bithyear);
 */
 //finger print operation
+/*
 var name = prompt("Enter name :");
 var time = prompt("Enter time:");
 if(time<12.00){
@@ -31,4 +32,25 @@ else if(time <15.00){
 else{
     alert("Good Evening "+name);
 }
+*/
+// payment calculator
+var emp_Name = prompt("Enter Name:");
+var emp_type = prompt("Enter type of Employee(permanat or trainer):");
+if (emp_type == "permanat") {
+
+    var basic_Salary = prompt("Enter basic:");
+    var bonus = basic_Salary * 50 / 100;
+    var Salary = Number(basic_Salary) + Number(bonus);
+    alert(+emp_Name+" salary is " + Salary);
+
+} else if (emp_type == "trainer") {
+    var emp_Name = prompt("Enter Name:");
+    var basic_Salary = prompt("Enter basic salary:");
+    var bonus = basic_Salary * 20 / 100;
+    var Salary = Number(basic_Salary) + Number(bonus);
+    alert(+emp_Name+" salary is " + Salary);
+}
+else{
+    alert("Enter valid employee type");
+} 
 
